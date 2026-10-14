@@ -1,0 +1,19 @@
+{
+  "name": "crm-delivery",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Núcleo do CRM de delivery: entrada de pedidos, segmentação, campanhas, envio por WhatsApp e atribuição de receita.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc -p .",
+    "env:check": "node scripts/env-check.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^5.9.3"
+  }
+}
